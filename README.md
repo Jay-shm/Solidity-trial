@@ -13,3 +13,6 @@
 2) When you declare a public state variable a getter function is automatically created.
 3) By default variable visibility is private.
 
+# View and Pure Functions
+* Pure: a function that doesn't read or modify the variables of the state is called a pure function. It can only use local variables that are declared in the function and the arguments that are passed to the function to compute.
+* View: a function that only reads but doesn't alter the state variables defined in the contract is called a View Function.
