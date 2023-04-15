@@ -16,3 +16,20 @@
 # View and Pure Functions
 * Pure: a function that doesn't read or modify the variables of the state is called a pure function. It can only use local variables that are declared in the function and the arguments that are passed to the function to compute.
 * View: a function that only reads but doesn't alter the state variables defined in the contract is called a View Function.
+
+# Constructor
+1) Constructor is a special function declared using constructor keyword. It is an optional funtion and is used to initialize state variables of a contract.
+* Following are the key characteristics of a constructor:
+* A contract can have only one constructor.
+* A constructor code is executed once when a contract is created and it is used to initialize contract state.
+* After a constructor code executed, the final code is deployed to blockchain. This code include public functions and code reachable through public functions. Constructor code or any internal method used only by constructor are not included in final code.
+* A constructor can be either public or internal.
+* A internal constructor marks the contract as abstract.
+* In case, no constructor is defined, a default constructor is present in the contract.
+
+# constructor
+* Executed only once.
+* You can create only one constructor and that is optional.
+* A default constructor is created by the compiler if there is no explicitly defined constructor.
+
+* They are used to initialize state variables of a contract and to decide the contract owner in the start
