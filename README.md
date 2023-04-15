@@ -33,3 +33,8 @@
 * A default constructor is created by the compiler if there is no explicitly defined constructor.
 
 * They are used to initialize state variables of a contract and to decide the contract owner in the start
+
+# Integers in solidity
+![Screenshot (79)](https://user-images.githubusercontent.com/127013993/232190463-9d56de82-3720-44f5-bd12-bea912dfaaa6.png)
+![Screenshot (80)](https://user-images.githubusercontent.com/127013993/232190466-323f14f7-38bd-4b97-b784-b5cb682bb561.png)
+![Screenshot (82)](https://user-images.githubusercontent.com/127013993/232190470-5e1fd7e3-6ba3-4bd0-ae63-dd5e089b800d.png)
